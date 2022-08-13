@@ -17,23 +17,33 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BsCheck className="service__list-icon" />
-              <p>Website and software application designing. </p>
+              <p>
+                Writing well designed, testable, efficient code by using best
+                software development practices
+              </p>
             </li>
             <li>
               <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>
+                Creating website layout/user interfaces by using standard
+                HTML/CSS practices
+              </p>
             </li>
             <li>
               <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>
+                Integrating data from various back-end services and databases
+              </p>
             </li>
             <li>
               <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>
+                Be responsible for maintaining, expanding, and scaling our site
+              </p>
             </li>
             <li>
               <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Cooperate with web designers to match visual design intent</p>
             </li>
           </ul>
         </article>
@@ -46,23 +56,31 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>
+                Support the entire application lifecycle (concept, design, test,
+                release and support)
+              </p>
             </li>
             <li>
               <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>
+                Produce fully functional mobile applications writing clean code
+              </p>
             </li>
             <li>
               <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Troubleshoot and debug to optimize performance</p>
             </li>
             <li>
               <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Design interfaces to improve user experience</p>
             </li>
             <li>
               <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>
+                Research and suggest new mobile products, applications and
+                protocols
+              </p>
             </li>
           </ul>
         </article>

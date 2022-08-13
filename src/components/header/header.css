@@ -10,6 +10,37 @@ header {
   position: relative;
 }
 
+.animation__text h3 {
+  color: var(--color-primary);
+  position: absolute;
+  font-weight: bold;
+  animation: motph-effect 12s infinite ease-in-out;
+}
+.animation__text h3:first-child {
+  animation-delay: -12s;
+}
+.animation__text h3:nth-child(2) {
+  animation-delay: -8s;
+}
+.animation__text h3:last-child {
+  animation-delay: -4s;
+}
+
+@keyframes motph-effect {
+  0%,
+  20%,
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+
+  40%,
+  80% {
+    filter: blur(16px);
+    opacity: 0;
+  }
+}
+
 /* ================CTA =============*/
 
 .cta {

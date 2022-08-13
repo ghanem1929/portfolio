@@ -5,7 +5,7 @@ const CTA = ({ setActiveNav }) => {
   return (
     <div className="cta">
       <a href={CV} className="btn" download>
-        download CV
+        Download CV
       </a>
       <a
         href="#contact"

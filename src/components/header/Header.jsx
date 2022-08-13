@@ -10,7 +10,12 @@ const Header = ({ setActiveNav }) => {
       <div className="container container__header">
         <h5>hello I'm</h5>
         <h1>Henchiri GHANEM</h1>
-        <h5>Fullstack js developer</h5>
+        <div className="animation__text">
+          <h3>Software Engineer</h3>
+          <h3>MERN-stack js Developer</h3>
+          <h3>React Native developer</h3>
+        </div>
+
         <CTA setActiveNav={setActiveNav} />
         <HeaderSocials />
         <div className="image__container">
